@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
         - name: code2cloud-python-flask-webserver
-          image: ghcr.io/simonpanworg/code2cloud-python-flask-webserver:v0.1.3 # Update the repo container repository name with your github username and the version number
+          image: ghcr.io/simonpanworg/code2cloud-python-flask-webserver:v0.1.4 # Update the repo container repository name with your github username and the version number
           ports:
             - containerPort: 5000
           readinessProbe:
